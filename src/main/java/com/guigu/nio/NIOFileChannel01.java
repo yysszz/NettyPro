@@ -1,4 +1,4 @@
-package com.guigu.nio;
+package src.main.java.com.guigu.nio;
 
 import java.io.FileOutputStream;
 import java.nio.ByteBuffer;

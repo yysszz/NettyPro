@@ -1,4 +1,4 @@
-package com.guigu.bio;
+package src.main.java.com.guigu.bio;
 
 import java.io.InputStream;
 import java.net.ServerSocket;
@@ -18,6 +18,7 @@ public class BioServer {
                 final Socket socket = serverSocket.accept();
                 System.out.println("客户端连接");
                 threadPool.execute(new Runnable() {
+                    @Override
                     public void run() {
                         System.out.println("新建线程" + Thread.currentThread().getName());
                         handle(socket);
