@@ -20,7 +20,7 @@ public class NIOServer {
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
         while (true) {
-            //等待连接事件发生 等待时间 返回有事件发生通道的个数
+            //等待连接事件发生 等待时间 返回有事件发生个数
             if (selector.select(3000) == 0) {
                 System.out.println("服务器等待了3秒，无连接");
                 continue;
@@ -41,6 +41,7 @@ public class NIOServer {
                     socketChannel.configureBlocking(false);
                     //将socketChannel注册到selector,关注事件为OP_READ,同时给channel关联一个buffer
                     socketChannel.register(selector,SelectionKey.OP_READ, ByteBuffer.allocate(1024));
+                    System.out.println(selector.keys());
                 }
                 //发生读事件
                 if (key.isReadable()) {

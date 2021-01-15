@@ -1,4 +1,4 @@
-package com.guigu.nio;
+package src.main.java.com.guigu.nio;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
