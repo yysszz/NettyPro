@@ -1,4 +1,4 @@
-package src.main.java.com.guigu.bio;
+package com.bio;
 
 import java.io.InputStream;
 import java.net.ServerSocket;
