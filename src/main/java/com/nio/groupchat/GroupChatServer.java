@@ -7,6 +7,9 @@ import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.util.Iterator;
 
+/**
+ * @author ysz
+ */
 public class GroupChatServer {
 
     private Selector selector;
@@ -53,6 +56,7 @@ public class GroupChatServer {
                             //发生读取事件
                              SelectableChannel channel = key.channel();
                              //专门写读取方法
+                             readData(key);
                          }
                          //把当前的key删除 防止重复处理
                          iterator.remove();
@@ -84,14 +88,22 @@ public class GroupChatServer {
                 System.out.println("from 客户端:" + msg);
 
                 //向其他客户端转发(除了自己)
-
+                sendInfoToOtherClient(msg,channel);
             }
-        }catch (Exception e){
-
+        }catch (IOException e){
+            try {
+                System.out.println(channel.getRemoteAddress() + "离线了");
+                //取消注册
+                selectionKey.channel();
+                //关闭通道
+                channel.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
         }
     }
 
-    private void sendInfoToOtherClient(String msg,SocketChannel self){
+    private void sendInfoToOtherClient(String msg,SocketChannel self) throws IOException {
         System.out.println("服务器转发消息中。。。。");
 
         //遍历所有注册到selector上的SocketChannel 排除self
@@ -106,13 +118,15 @@ public class GroupChatServer {
                 SocketChannel dest = (SocketChannel) targetChannel;
                 //将msg 存储到buffer
                 ByteBuffer buffer = ByteBuffer.wrap(msg.getBytes());
+
+                dest.write(buffer);
+
             }
         }
     }
 
+
     public static void main(String[] args) {
-        byte[] bytes = new byte[1024];
-        String a = "aaaa";
-        byte s = 1;
+
     }
 }
