@@ -1,9 +1,34 @@
+1.https://www.javanav.com/interview/c316f08960b54335b7eab730a90eaae1.html
 
+
+2.interview整理
 https://manage.ne-soft.com/#/login
 
+智慧能源管理云平台
+SaaS平台
+    项目架构
+        微服务
 
-智慧能源管理云平台 充电喵App 星云充电喵小程序
+        SpringCloud全家桶(spring-cloud-starter-netflix-ribbon hystrix eureka)
+
+        netty
+
+        SpringBoot
+
+        SpringDataJPA框架QueryDSL Mybatis
+
+        消息队列Kafka
+
+        Mysql 5.7
+
+        部署 K8s+Docker
+
+充电喵App/星云充电喵小程序
+    充电一站式服务平台 智能找桩、扫码充电、电池检测等一站式充电服务
+
+分布式项目管理 GitBlit
+    Jira 禅道
 
 
-
-充电一站式服务平台 智能找桩、扫码充电、电池检测等一站式充电服务
+1车辆
+2站点

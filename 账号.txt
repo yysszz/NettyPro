@@ -1,0 +1,87 @@
+工号 NE2930
+
+    username: chongdz
+    password: $1ZyaBL8jIDnja2G
+
+pdrepo NE2930 +n\8D8 pd123456 
+
+git 	
+	name 杨少智
+	username NE2930	
+	邮箱 17759711676@163.com
+	密码 123456qwer
+
+yapi
+	username NE2930
+	邮箱 17759711676@163.com
+	密码 123456qwer
+
+http://192.168.1.7/nebula/train.git
+http://192.168.1.7/nebula/nebula.git
+
+测试系统
+	admin
+	Nebulait
+
+	01599
+	123456
+
+OA 
+	NE2930	
+	123456qwer
+http://218.85.13.109:88/wui/main.jsp?gopage=/hrm/resource/HrmResourcePassword.jsp?isfromtab=false&frompage=/login/RemindLogin.jsp
+http://218.85.13.109:88/login/Login.jsp?logintype=1
+
+	2930
+	123456
+http://192.168.1.7/nebula/vue_front.git
+
+su teamcity
+
+http://47.96.230.188:4000/
+
+git地址
+账号ne2930 密码123456   123456qwer
+
+3.0的原型http://192.168.1.5:8090/#id=u7gcjy&p=ic%E5%8D%A1&g=1
+
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-operation-manage.git
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-operation-gateway.git
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-operation-authorization.git后端网关、平台、授权服务
+
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-statistics.git
+
+648442581@qq.com
+youngthug002
+648442581z1
+
+车辆管理
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-car-manage.git
+
+统计
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-statistics.git
+
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-operation-maintenance.git
+
+统计旧
+http://ne2930@47.96.230.188:4000/r/~nebula/newenergy-wxmini-backend.git
+
+订单
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-order.git
+
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-communication.git
+
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-device-manage.git
+
+http://工号@47.96.230.188:4000/r/~nebula/wisdom-newenergy-module-common.git
+
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-kafka-consumer.git
+
+
+http://124.70.3.176:3322/  日志
+
+http://ne2930@47.96.230.188:4000/r/~nebula/wisdom-newenergy-auth-common.git
+
+
+https://file.ne-soft.com/app/image/20210122132021.jpg
+https://file.ne-soft.com/app/image/20210122132048.jpg
