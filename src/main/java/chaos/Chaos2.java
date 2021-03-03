@@ -1,4 +1,4 @@
-package com.interview;
+package chaos;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,6 +53,32 @@ public class Chaos2 {
       int val;
       ListNode next;
       ListNode(int x) { val = x; }
+    }
+
+    public int numJewelsInStones(String jewels, String stones) {
+        int count = 0;
+        char[] stonesArray = stones.toCharArray();
+        char[] jewelsArray = jewels.toCharArray();
+        for (int i1 = 0; i1 < jewelsArray.length; i1++) {
+            for (int i = 0; i < stonesArray.length; i++) {
+                if(jewelsArray[i1] - stonesArray[i] == 0){
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+
+    public int numIdenticalPairs(int[] nums) {
+        int count = 0;
+        for (int i = 0; i < nums.length - 1; i++) {
+            for (int i1 = i + 1; i1 < nums.length; i1++) {
+                if(nums[i1 - 1] < nums[i1]){
+                    count ++;
+                }
+            }
+        }
+        return count;
     }
 
 }
