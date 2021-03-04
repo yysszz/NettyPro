@@ -1,6 +1,8 @@
 1.https://www.javanav.com/interview/c316f08960b54335b7eab730a90eaae1.html
 https://www.javanav.com/interview/c1c5c5964574489c8d010c3e1a6f3362.html
 
+https://www.javanav.com/interview/e6b5eea4b641480ab7cbb95dd8307992.html
+
 2.interview整理
 https://manage.ne-soft.com/#/login
 
@@ -33,6 +35,10 @@ SaaS平台
         ELK(ElasticSearch LogStash Kibana)
 
         InfluxDB
+
+        短信验证码
+
+        BestDiffcu kafka 消费者跑出 Error子类 kafka捕获Exception 导致消费者线程中断 无法主动拉取消息队列数据 导致分区内消息堆积 无法消费 重启项目
 
 充电喵App/星云充电喵小程序
     充电一站式服务平台 智能找桩、扫码充电、电池检测等一站式充电服务
