@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Chaos2 {
 
+    private volatile Integer x = 1;
+
     public static void main(String[] args) {
 
         countMatches(new ArrayList<List<String>>(),"","");
