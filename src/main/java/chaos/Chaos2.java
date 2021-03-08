@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Chaos2 {
 
-    private volatile Integer x = 1;
 
     public static void main(String[] args) {
-
-        countMatches(new ArrayList<List<String>>(),"","");
+        int a = 4^7;
+        System.out.println(a + "");
+        //countMatches(new ArrayList<List<String>>(),"","");
     }
 
     public static int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
