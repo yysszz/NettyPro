@@ -9,6 +9,10 @@ public class Chaos {
     public static void main(String[] args) {
         String a = "AAA";
         String b = "aaa";
+        float f = 3.4f;
+        short s1 = 1;
+        s1 = (short) (s1 + 1);
+        s1 += 1;
         System.out.println(a.compareToIgnoreCase(b));
 
         List<String> strings = new ArrayList<>();
