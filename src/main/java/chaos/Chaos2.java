@@ -7,8 +7,12 @@ public class Chaos2 {
 
 
     public static void main(String[] args) {
+        InterfaceFa interfaceFa = new Chaos();
         int a = 4^7;
         System.out.println(a + "");
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.stream().forEach(System.out::println);
         //countMatches(new ArrayList<List<String>>(),"","");
     }
 

@@ -2,11 +2,13 @@ package chaos;
 
 import java.util.*;
 
-public class Chaos {
+public class Chaos implements InterfaceFa{
     private String name;
     private Integer age;
     private Integer sex;
     public static void main(String[] args) {
+        Singleton singleton = Singleton.INSTANCE;
+        singleton.whateverMethod();
         String a = "AAA";
         String b = "aaa";
         float f = 3.4f;
