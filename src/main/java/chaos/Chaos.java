@@ -1,8 +1,12 @@
 package chaos;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Chaos implements InterfaceFa{
+
+    public static ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap<>();
+
     private String name;
     private Integer age;
     private Integer sex;
